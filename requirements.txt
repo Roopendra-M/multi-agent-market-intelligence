@@ -1,21 +1,21 @@
 streamlit==1.32.0
 python-dotenv==1.0.1
 
-# LangChain & Agents
-langchain==0.2.11
+# LangChain ecosystem (compatible)
+langchain==0.2.13
+langchain-community==0.2.13
 langchain-google-genai==1.0.4
-langchain-community==0.2.12
 langgraph==0.4.8
 groq==0.3.0
 
-# Models / NLP
+# Models
 transformers==4.41.2
 sentence-transformers==2.2.2
 
 # Vector DB
 faiss-cpu==1.13.0
 
-# ML stack
+# ML
 numpy==1.26.4
 pandas==2.2.2
 scikit-learn==1.4.2
@@ -26,14 +26,14 @@ requests==2.31.0
 httpx==0.26.0
 httpcore==1.0.4
 
-# Utilities
+# Utilities & Parsing
 beautifulsoup4==4.12.3
 lxml==4.9.3
 python-docx==1.1.0
 reportlab==4.1.0
 GitPython==3.1.43
 
-# Visualization
+# Plotting
 plotly==5.18.0
 matplotlib==3.8.4
 seaborn==0.13.2
